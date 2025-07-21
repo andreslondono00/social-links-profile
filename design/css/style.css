@@ -8,6 +8,102 @@ body {
   height: 100%;
 }
 
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 360px;
+  height: 520px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.jessica-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jessica-image {
+  width: 80px;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.jessica-name {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-top: 20px;
+}
+
+.jessica-born {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(75, 94%, 57%);
+  margin-top: 5px;
+}
+
+.jessica-role {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  margin-top: 20px;
+}
+
+.social-container-one,
+.social-container-two,
+.social-container-three,
+.social-container-four,
+.social-container-five {
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-container-one:hover,
+.social-container-two:hover,
+.social-container-three:hover,
+.social-container-four:hover,
+.social-container-five:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3:hover,
+:focus {
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
