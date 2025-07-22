@@ -17,15 +17,14 @@ body {
 
 .container {
   background-color: hsl(0, 0%, 12%);
-  width: 360px;
-  height: 520px;
+  width: 390px;
+  height: 600px;
   border-radius: 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .jessica-profile {
@@ -70,8 +69,8 @@ body {
 .social-container-four,
 .social-container-five {
   background-color: hsl(0, 0%, 20%);
-  width: 100%;
-  height: 35px;
+  width: 290px;
+  height: 55px;
   border-radius: 5px;
   margin-top: 20px;
   display: flex;
@@ -105,9 +104,16 @@ h3:hover,
 }
 
 .attribution {
-  font-size: 11px;
+  position: relative;
+  top: 100px;
+  font-family: Inter;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  color: white;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
 }
